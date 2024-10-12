@@ -89,7 +89,7 @@ Instructions:
   - Emphasize quantifiable results and metrics to demonstrate the impact of my work.
   - Use numbers, percentages, and specific outcomes where possible, and highlight them using <b> or <strong> tags.
 6. Addition of Relevant Skills:
-  - If the job description mentions specific skills or technologies that are not present in My Information, you may add a couple of them appropriately in my experience, but do not overdo it.
+  - If the job description mentions specific skills or technologies that are not present in My Information.
   - Try to stay within limits when adding new skills on your own
 8. Clarity and Conciseness:
   - Combine, rephrase, or remove bullet points to make the content more concise and impactful.
@@ -218,7 +218,6 @@ Instructions:
 -  Filter and include only the skills that are relevant to the job description.
 -  Be mindful of the job description; unless a skill is irrelevant, do not remove it. For example, if the job is about Java but does not mention Jira, you should still include Jira because it's relevant for software development.
 -  Do not say you know a language if its not in my information but in job description.
--  You may add a couple of important skills from the job description that are not in "My Information" if they are crucial for the job, but do not add too many.
 -  Sort the skills in each category based on their importance in the job description. For example, if Java is a primary requirement, list it before other languages like Python.
 -  Provide the final output in HTML format using the template provided below.
 -  Do not include any explanations, additional text, or formatting tags like ```html`. Provide only the HTML code.
@@ -254,7 +253,6 @@ The results should be provided in html format, Provide only the html code for th
 
 To repeat:
 the most important sub tasks are:
--  You may add a couple of important skills from the job description that are not in "My Information" if they are crucial for the job, but do not add too many.
 -  Sort the skills in each category based on their importance in the job description. For example, if Java is a primary requirement, list it before other languages like Python.
 
 """
