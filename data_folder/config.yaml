@@ -1,0 +1,48 @@
+# Not used
+remote: true
+
+experienceLevel:
+  internship: false
+  entry: true
+  associate: true
+  mid-senior level: true
+  director: false
+  executive: false
+
+jobTypes:
+  full-time: true
+  contract: false
+  part-time: false
+  temporary: true
+  internship: false
+  other: false
+  volunteer: true
+
+date:
+  all time: false
+  month: true
+  week: true
+  24 hours: true
+
+positions:
+  - Data Scientist
+  - Machine Learning Engineer
+  - NLP Engineer 
+  - AI Engineer
+  - AI Research Scientist
+  - ML Engineer
+  - Machine Learning Engineer
+  - NLP Expert
+  - LLM Engineer
+
+
+locations:
+  - Germany
+
+distance: 100
+
+companyBlacklist:
+  - Noir
+  - Crossover
+
+titleBlacklist:
