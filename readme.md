@@ -1,6 +1,4 @@
 
-**README: Tailored Resume Generator**
-
 ### **Project Overview**
 
 This project is a specialized extension of the `lib_resume_builder_AIHawk` package ([https://github.com/feder-cr/lib_resume_builder_AIHawk](https://github.com/feder-cr/lib_resume_builder_AIHawk)). While the original package focuses on generating resumes from scratch, this application prioritizes tailoring your existing resume to specific job descriptions, ensuring optimal relevance and impact.
