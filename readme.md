@@ -20,13 +20,13 @@ This project is a specialized extension of the `lib_resume_builder_AIHawk` packa
 
 2. **Installation:**
    * Clone this repository: `git clone https://github.com/your_username/tailored_resume_generator`
-   * **Replace the `lib_resume_builder_AIHawk` Library:** Replace the `lib_resume_builder_AIHawk` library in this project with the cloned version from the official repository. This ensures you're using the most up-to-date version.
-   * Install the additional project dependencies: `pip install -r requirements.txt`
+   * Get the location of the installed library using "pip show lib_resume_builder_AIHawk" command.
+   * **Replace the `lib_resume_builder_AIHawk` Library:** Replace the `lib_resume_builder_AIHawk` library folder that is just installed with the folder from this repository.
+   * Install the additional project dependencies: `pip install -r requirements.txt` from this repo
 
-3. **Configuration:**
-   * Create a `.env` file and add your OpenAI API key: `OPENAI_API_KEY=your_api_key`
 
 4. **Usage:**
+   * After the repo replication work is done and libraries are installed and YAML configurations are also set then: 
    * Run the application: `python main.py`
    * The Gradio interface will open, prompting you to:
      * Upload your existing resume
@@ -40,10 +40,12 @@ Maintaining the same name as the original `lib_resume_builder_AIHawk` package de
 
 ### **How it Works**
 
-1. **Resume Upload:** Share your existing resume as input, providing the foundation for personalization.
+1. **Resume Upload:** Share your existing resume as input, providing the foundation for personalization. Put as much detail as you want in the resume.yaml file. The file is supposed to be an exhaustive list of your skills, experience and etc.
 2. **Job Description Analysis:** The application extracts key requirements and keywords from the provided job description.
 3. **Resume Enhancement:** Relevant sections within your resume are identified, and the content is tailored to match the extracted keywords and specific job description criteria.
 4. **Output:** The enhanced and personalized resume is saved to your chosen output file name.
+
+
 
 ### **Contributing**
 
