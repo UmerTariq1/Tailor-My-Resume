@@ -15,6 +15,7 @@ This project is a specialized extension of the `lib_resume_builder_AIHawk` packa
 1. **Prerequisites:**
    * **`lib_resume_builder_AIHawk` Library:** Follow the installation instructions on the official project page ([https://github.com/feder-cr/lib_resume_builder_AIHawk](https://github.com/feder-cr/lib_resume_builder_AIHawk)) to install the `lib_resume_builder_AIHawk` library. This provides the core functionality for interacting with OpenAI's GPT models.
    * **YAML Configuration:**  For configuration details related to OpenAI API keys and other settings, refer to the well-documented YAML setup instructions in the  `Auto_Jobs_Applier_AIHawk` project ([https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk](https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk)). This project provides a solid foundation for understanding YAML configuration in this context.
+   * The resume yaml config is a bit different though. A publication section is added and set as optional (in fact all options are now optional). Skills are removed from the work experience section and is now a separate section with a specific template.
 
 2. **Installation:**
    * Clone this repository: `git clone https://github.com/your_username/tailored_resume_generator`
